@@ -45,9 +45,9 @@ st.markdown(
     /* --- TITRES --- */
     h1, h2, h3 {
         font-family: 'Trebuchet MS', sans-serif;
-        color: #fff;
+        
         text-align: center;
-        text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+        text-shadow: 2px 2px 10px #f5f5f5;
     }
 
     /* --- ONGLET STYLISE --- */
@@ -75,7 +75,7 @@ st.markdown(
         padding: 20px;
     }
     [data-testid="stSidebar"] h2 {
-        color: #ff2c55;
+        color: #f5f5f5;
     }
 
     [data-testid="stAppViewContainer"] {
@@ -85,7 +85,7 @@ st.markdown(
 
     /* --- METRICS --- */
     [data-testid="stMetricValue"] {
-        color: #ff2c55;
+        color: #f5f5f5;;
         font-weight: bold;
         font-size: 28px;
     }
@@ -264,3 +264,4 @@ with onglets[5]:
         color_continuous_scale="pinkyl"
     )
     st.plotly_chart(fig_mois, use_container_width=True)
+
